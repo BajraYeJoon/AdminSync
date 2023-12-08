@@ -77,6 +77,44 @@ export const newUsers = [
   },
 ];
 
+export const productDashboard = [
+  {
+    productName: "Modern Coffee Table",
+    color: "Walnut",
+    category: "Living Room Furniture",
+    price: 199.99,
+    status: "delivered",
+  },
+  {
+    productName: "Leather Recliner Sofa",
+    color: "Black",
+    category: "Living Room Furniture",
+    price: 499.99,
+    status: "pending",
+  },
+  {
+    productName: "Wooden Dining Table Set",
+    color: "Espresso",
+    category: "Dining Room Furniture",
+    price: 799.99,
+    status: "success",
+  },
+  {
+    productName: "Queen Size Bed Frame",
+    color: "Gray",
+    category: "Bedroom Furniture",
+    price: 699.99,
+    status: "pending",
+  },
+  {
+    productName: "Office Chair",
+    color: "White",
+    category: "Office Furniture",
+    price: 129.99,
+    status: "delivered",
+  },
+];
+
 export const productData = [
   {
     name: "Jan",
