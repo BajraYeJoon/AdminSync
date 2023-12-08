@@ -8,14 +8,15 @@ import {
   HiUser,
   HiViewBoards,
 } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 export default function SidebarPanel() {
   return (
-    <Sidebar className="flex">
+    <Sidebar className="flex min-w-[280px]">
       <Sidebar.Items>
         <Sidebar.ItemGroup>
           <Sidebar.Item href="#" icon={HiChartPie}>
-            Dashboard
+            <Link to="/">Dashboard</Link>
           </Sidebar.Item>
           <Sidebar.Item href="#" icon={HiViewBoards}>
             Kanban
@@ -23,8 +24,8 @@ export default function SidebarPanel() {
           <Sidebar.Item href="#" icon={HiInbox}>
             Inbox
           </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiUser}>
-            Users
+          <Sidebar.Item icon={HiUser}>
+            <Link to="/users">Users</Link>
           </Sidebar.Item>
           <Sidebar.Item href="#" icon={HiShoppingBag}>
             Products
