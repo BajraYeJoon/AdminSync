@@ -2,7 +2,7 @@ import { ANALYTIC_CARD_INFO } from "../../lib/constants";
 
 const FeaturedInfo = () => {
   return (
-    <div className="w-full flex justify-between gap-12">
+    <div className="w-full flex justify-between gap-6">
       {ANALYTIC_CARD_INFO.map(({ icon, label, generatedValue, value }) => (
         <div className="w-full h-fit p-6 bg-white border border-gray-200 rounded-lg shadow">
           <img

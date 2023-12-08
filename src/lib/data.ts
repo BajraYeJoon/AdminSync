@@ -49,6 +49,34 @@ export const userData = [
   },
 ];
 
+export const newUsers = [
+  {
+    name: "John Doe",
+    avatarlink: "https://source.unsplash.com/100x100/?portrait",
+    email: "john.doe@example.com",
+  },
+  {
+    name: "Jane Smith",
+    avatarlink: "https://source.unsplash.com/100x100/?people",
+    email: "jane.smith@example.com",
+  },
+  {
+    name: "Bob Johnson",
+    avatarlink: "https://source.unsplash.com/100x100/?man",
+    email: "bob.johnson@example.com",
+  },
+  {
+    name: "Alice Williams",
+    avatarlink: "https://source.unsplash.com/100x100/?woman",
+    email: "alice.williams@example.com",
+  },
+  {
+    name: "Charlie Brown",
+    avatarlink: "https://source.unsplash.com/100x100/?face",
+    email: "charlie.brown@example.com",
+  },
+];
+
 export const productData = [
   {
     name: "Jan",
