@@ -103,8 +103,8 @@ export default function SidebarPanel() {
                   </button>
                 </div>
                 <div className="mb-3 text-sm text-cyan-900 dark:text-gray-400">
-                  Preview the new Flowbite dashboard navigation! You can turn
-                  the new navigation off for a limited time in your profile.
+                  Preview the new dashboard navigation! You can turn the new
+                  navigation off for a limited time in your profile.
                 </div>
                 <a
                   className="text-sm text-cyan-900 underline hover:text-cyan-800 dark:text-gray-400 dark:hover:text-gray-300"
