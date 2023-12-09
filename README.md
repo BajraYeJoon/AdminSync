@@ -1,35 +1,10 @@
+![Uploading image.png…](./public/Screenshot%20from%202023-12-09%2015-18-32.png)
 
-![Uploading image.png…](https://img.freepik.com/free-vector/construction-set-icons_24877-60028.jpg?w=826&t=st=1702021170~exp=1702021770~hmac=bbadc6769511e822bf79a69f3f48bd1e0dff139b90a1089aafd047bb86a44f12
-)
+# Admin Sync
 
+A admin dashboard template built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/).
 
-# React + TypeScript + Vite
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- ⚡️ [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- 📦 [React](https://reactjs.org/) - A JavaScript library for building user interfaces
